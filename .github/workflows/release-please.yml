@@ -1,2 +1,14 @@
-releaseType: simple
-handleGHRelease: true
+name: release-please
+on:
+  push:
+    branches:
+      - main
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - name: release-please-action
+        id: release
+        uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: simple
