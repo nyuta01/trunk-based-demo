@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://github.com/nyuta01/trunk-based-demo/compare/v1.1.0...v1.1.1) (2022-02-09)
+
+
+### Miscellaneous
+
+* add outputs to release-please job ([25502e0](https://github.com/nyuta01/trunk-based-demo/commit/25502e0e78c76a5f62061eae9a9daed0f1146b02))
+
 ## [1.1.0](https://github.com/nyuta01/trunk-based-demo/compare/v1.0.1...v1.1.0) (2022-02-09)
 
 
