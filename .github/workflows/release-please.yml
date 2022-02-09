@@ -26,5 +26,5 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git checkout -b release/${{ needs.release-please.outputs.tag_name }}
-          git push origin release/${{ needs.release-please.outputs.tag_name }}
+          git checkout -b release-${{ needs.release-please.outputs.tag_name }}
+          git push origin release-${{ needs.release-please.outputs.tag_name }}
