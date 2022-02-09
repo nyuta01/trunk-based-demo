@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.1](https://github.com/nyuta01/trunk-based-demo/compare/v1.2.0...v1.2.1) (2022-02-09)
+
+
+### Miscellaneous
+
+* add default-branch to release-please ([7feac14](https://github.com/nyuta01/trunk-based-demo/commit/7feac149ef3dfc0d0799bd55ff065bcdfcfbfe83))
+
 ## [1.2.0](https://github.com/nyuta01/trunk-based-demo/compare/v1.1.3...v1.2.0) (2022-02-09)
 
 
