@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.2](https://github.com/nyuta01/trunk-based-demo/compare/v1.1.1...v1.1.2) (2022-02-09)
+
+
+### Bug Fixes
+
+* fix git-cmd ([efe9122](https://github.com/nyuta01/trunk-based-demo/commit/efe91220bda0b1c9ae71533be5dbc981e51fc1ea))
+
 ### [1.1.1](https://github.com/nyuta01/trunk-based-demo/compare/v1.1.0...v1.1.1) (2022-02-09)
 
 
