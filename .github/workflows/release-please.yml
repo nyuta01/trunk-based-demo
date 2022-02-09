@@ -21,6 +21,8 @@ jobs:
         if: ${{ needs.release-please.outputs.release_created }}
         with:
           ref: ${{ needs.release-please.outputs.tag_name }}
+      - name: generate release-branch
+        if: ${{ needs.release-please.outputs.release_created }}
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
