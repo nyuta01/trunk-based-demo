@@ -16,6 +16,7 @@ jobs:
         uses: google-github-actions/release-please-action@v3
         with:
           release-type: simple
+          default-branch: ${{ github.ref_name }}
           changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
   release:
     runs-on: ubuntu-latest
