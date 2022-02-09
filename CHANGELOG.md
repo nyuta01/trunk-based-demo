@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.3](https://github.com/nyuta01/trunk-based-demo/compare/v1.1.2...v1.1.3) (2022-02-09)
+
+
+### Miscellaneous
+
+* modify branch name ([bf6b4c8](https://github.com/nyuta01/trunk-based-demo/commit/bf6b4c818f17c2dfccc3132a483e8ad75af00cd2))
+
 ### [1.1.2](https://github.com/nyuta01/trunk-based-demo/compare/v1.1.1...v1.1.2) (2022-02-09)
 
 
