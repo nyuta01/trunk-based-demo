@@ -7,6 +7,18 @@
 
 * fix ([c5fbdde](https://github.com/nyuta01/trunk-based-demo/commit/c5fbdde5f0c5637c64784df0d12ad40dc6380a81))
 
+
+### Miscellaneous
+
+* **release-v1.3.0:** release 1.3.1 ([0327d5a](https://github.com/nyuta01/trunk-based-demo/commit/0327d5ac57a25dce168c368a19db65dff8d4b92b))
+
+### [1.3.1](https://github.com/nyuta01/trunk-based-demo/compare/v1.3.0...v1.3.1) (2022-02-10)
+
+
+### Bug Fixes
+
+* fix ([c5fbdde](https://github.com/nyuta01/trunk-based-demo/commit/c5fbdde5f0c5637c64784df0d12ad40dc6380a81))
+
 ## [1.3.0](https://github.com/nyuta01/trunk-based-demo/compare/v1.2.1...v1.3.0) (2022-02-10)
 
 
