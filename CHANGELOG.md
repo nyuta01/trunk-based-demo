@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.4.0](https://github.com/nyuta01/trunk-based-demo/compare/v1.3.0...v1.4.0) (2022-02-10)
+
+
+### Features
+
+* feat ([c8ff375](https://github.com/nyuta01/trunk-based-demo/commit/c8ff375a300422302bfd5e11dcd2cd8f52a52bef))
+
+
+### Bug Fixes
+
+* fix ([e3e864c](https://github.com/nyuta01/trunk-based-demo/commit/e3e864cd273fd69a5c5a08ae71e4ec0eda407ee5))
+
+
+### Miscellaneous
+
+* modify delete-branch job ([61c70c7](https://github.com/nyuta01/trunk-based-demo/commit/61c70c7b2bc4ef8ab9c6c84b4b7d78560cb2b94f))
+
 ## [1.3.0](https://github.com/nyuta01/trunk-based-demo/compare/v1.2.1...v1.3.0) (2022-02-10)
 
 
