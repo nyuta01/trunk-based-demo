@@ -37,6 +37,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: delete release-branch
-        uses: SvanBoxel/delete-merged-branch@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: dawidd6/action-delete-branch@v3
+        with:
+          github_token: ${{github.token}}
+          branch: ${{ github.ref_name }}
