@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.9.0](https://github.com/nyuta01/trunk-based-demo/compare/v1.8.0...v1.9.0) (2022-02-10)
+
+
+### Features
+
+* feat ([01da10b](https://github.com/nyuta01/trunk-based-demo/commit/01da10b83f114c24513fd44b028e060ea5becd6c))
+
+
+### Bug Fixes
+
+* fix ([0323ee3](https://github.com/nyuta01/trunk-based-demo/commit/0323ee3520f536412e7578b7ed00930bc32e11f2))
+
+
+### Miscellaneous
+
+* update a.txt ([2290753](https://github.com/nyuta01/trunk-based-demo/commit/2290753a5f5460152d5556fe5fe58febaadddabb))
+* update README ([0be12c1](https://github.com/nyuta01/trunk-based-demo/commit/0be12c19585dfb4feed857daf3861b0d807da148))
+
 ## [1.8.0](https://github.com/nyuta01/trunk-based-demo/compare/v1.7.0...v1.8.0) (2022-02-10)
 
 
