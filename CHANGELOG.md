@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.3.1](https://github.com/nyuta01/trunk-based-demo/compare/v1.3.0...v1.3.1) (2022-02-10)
+
+
+### Bug Fixes
+
+* fix ([c5fbdde](https://github.com/nyuta01/trunk-based-demo/commit/c5fbdde5f0c5637c64784df0d12ad40dc6380a81))
+
 ## [1.3.0](https://github.com/nyuta01/trunk-based-demo/compare/v1.2.1...v1.3.0) (2022-02-10)
 
 
