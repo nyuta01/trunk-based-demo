@@ -18,7 +18,7 @@ jobs:
           release-type: simple
           default-branch: ${{ github.ref_name }}
           changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
-  release:
+  create-release-branch:
     runs-on: ubuntu-latest
     needs: release-please
     if: ${{ needs.release-please.outputs.release_created }}
@@ -30,3 +30,13 @@ jobs:
           git config user.email github-actions@github.com
           git checkout -b release-${{ needs.release-please.outputs.tag_name }}
           git push origin release-${{ needs.release-please.outputs.tag_name }}
+  delete-release-branch:
+    runs-on: ubuntu-latest
+    needs: release-please
+    if: ${{ needs.release-please.outputs.release_created && github.ref_name != 'main' }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: delete release-branch
+        uses: SvanBoxel/delete-merged-branch@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
